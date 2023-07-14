@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@400;700&display=swap");
+.piechart {
+  width: 30rem;
+  height: 16rem;
+  background: #FFF;
+  border-radius: 1.25rem;
+  padding: 1.8rem 2.5rem;
+}
+
+.heading {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+.chart {
+  margin-top: 2rem;
+  width: 400px;
+  height: 200px;
+}/*# sourceMappingURL=Piechart.css.map */

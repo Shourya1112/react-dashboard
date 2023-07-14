@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@400;700&display=swap');
+
+$SecondaryFont: Lato;
+
+.cards {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 2.3rem;
+    flex-wrap: wrap;
+    background-color: #f0f0f0;
+}
+
+.card {
+    width: 13.81581rem;
+    // height: 7.5rem;
+    border-radius: 1rem;
+    padding: 1.25rem 1.6rem;
+    // padding-inline: 1.6rem;
+    display: flex;
+    flex-direction: column;
+
+
+
+    &.revenues {
+        background-color: #DDEFE0;
+    };
+    &.transaction {
+        background-color: #F4ECDD;
+    }
+    &.likes {
+        background-color: #EFDADA;
+    }
+    &.users {
+        background-color: #DEE0EF;
+    }
+}
+
+.card--icon {
+    align-self: self-end;
+    height: 1.5rem;
+}
+
+.card--head {
+    color: #000;
+    font-family: $SecondaryFont;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card--value {
+    color: #000;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Open Sans';
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 0.31rem;
+}

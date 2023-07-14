@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@400;700&display=swap");
+.card-sch {
+  background-color: #fff;
+  width: 70%;
+  padding: 1.5rem;
+  border-radius: 1.25rem;
+}
+.card-sch.head {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.heading {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.side {
+  color: #858585;
+  font-family: Montserrat;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.task {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+}
+
+.tasks {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: center;
+}/*# sourceMappingURL=Schedule.css.map */

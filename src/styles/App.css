@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@400;700&display=swap");
+* {
+  padding: 0rem;
+  margin: 0px;
+}
+
+.app {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f0f0f0;
+}/*# sourceMappingURL=App.css.map */

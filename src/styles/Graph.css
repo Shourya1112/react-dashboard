@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@400;700&display=swap");
+.graphCard {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  height: 30%;
+  padding: 1.8rem 2.5rem;
+  background-color: #fff;
+  border-radius: 1rem;
+}
+
+.graphHeader {
+  width: 100%;
+  display: flex;
+  height: -moz-fit-content;
+  height: fit-content;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.heading {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 700;
+  margin: 0px;
+}
+
+.period {
+  color: #858585;
+  font-family: Montserrat;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.graph {
+  margin-top: auto;
+  width: 650px;
+}/*# sourceMappingURL=Graph.css.map */

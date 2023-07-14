@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@400;700&display=swap");
+.nav {
+  width: 14rem;
+  height: 85%;
+  background-color: #000;
+  border-radius: 1.875rem;
+  display: inline;
+  padding: 3.75rem 3.12rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.heading {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 3.87rem;
+}
+
+.nav--btn {
+  padding: 0%;
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  cursor: default;
+  margin-bottom: 2.5rem;
+}
+
+.nav--btn--text {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.nav--btn--text:active {
+  font-weight: 700;
+}
+
+.nav--btn--help {
+  color: #FFF;
+  font-size: 0.875rem;
+  font-family: Montserrat;
+  font-weight: 400;
+  cursor: default;
+  margin-bottom: 1.25rem;
+}
+
+.nav--btn--contact {
+  color: #FFF;
+  font-size: 0.875rem;
+  font-family: Montserrat;
+  font-weight: 400;
+  cursor: default;
+}/*# sourceMappingURL=Nav.css.map */
