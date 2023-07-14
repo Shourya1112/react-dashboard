@@ -19,7 +19,7 @@ const Login = () => {
     // Perform your form submission logic here
 
     // Redirect to the "/" route
-    navigate("/");
+    navigate("/app");
   };
 
 
