@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# React Dashboard Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a mockup project for a React dashboard built using Sass/SCSS. It provides a basic structure and design for a dashboard interface, and additional features will be added in the future.
 
-## Available Scripts
+The project is currently live on Vercel. You can access the dashboard and login page using the following links:
 
-In the project directory, you can run:
+- [Dashboard](https://react-dashboard-xi-sandy.vercel.app/app)
+- [Login](https://react-dashboard-xi-sandy.vercel.app/login)
 
-### `npm start`
+To log in, you can use any email and password as there is no authentication implemented in the current version of the project.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To run this project locally, please follow the instructions below:
 
-### `npm test`
+1. Clone the repository to your local machine:
+   ```
+   git clone https://github.com/your-username/react-dashboard-project.git
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Navigate to the project directory:
+   ```
+   cd react-dashboard-project
+   ```
 
-### `npm run build`
+3. Install the dependencies:
+   ```
+   npm install
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Usage
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To start the development server and view the dashboard, use the following command:
+```
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This will start the development server and open the dashboard in your default browser. Any changes you make to the source code will be automatically reflected in the browser.
 
-### `npm run eject`
+## Project Structure
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The project structure is organized as follows:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+react-dashboard-project/
+  ├── src/
+  │   ├── components/       # Contains reusable components
+  │   ├── styles/           # Contains global styles and SCSS files
+  │   ├── App.js            # Main application component
+  │   └── index.js          # Entry point of the application
+  ├── public/               # Public assets (e.g., index.html, images)
+  ├── package.json          # Project dependencies and scripts
+  └── README.md             # Project readme file (you are here)
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Customization
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The styles for the dashboard are defined using Sass/SCSS. You can customize the design and appearance by modifying the SCSS files located in the `src/styles` directory.
 
-## Learn More
+## Future Features
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This project is currently a mockup and may lack some features. However, we have plans to add the following features in future updates:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- User authentication and authorization
+- Integration with backend APIs
+- Customizable settings and preferences
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Stay tuned for updates as we continue to enhance this React dashboard project!
