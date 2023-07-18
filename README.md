@@ -5,7 +5,7 @@ This is a mockup project for a React dashboard built using Sass/SCSS. It provide
 The project is currently live on Vercel. You can access the dashboard and login page using the following links:
 
 - [Dashboard](https://react-dashboard-xi-sandy.vercel.app/app)
-- [Login](https://react-dashboard-xi-sandy.vercel.app/login)
+- [Login](https://react-dashboard-xi-sandy.vercel.app)
 
 To log in, you can use any email and password as there is no authentication implemented in the current version of the project.
 
